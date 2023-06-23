@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <h1 id="title"> Simple Website</h1>
+        <nav>
+            <h1><a href="{% url 'home' %}">Home</a></h1>
+            <h1><a href="{% url 'page1' %}">Some Page</a></h1>
+            <h1><a href="{% url 'page2' %}">Another Page</a></h1>
+        </nav>
+    </header>
+    {% block content %}
+    
+    {% endblock content %}
+<style>
+    body{
+        margin: 0;
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: rgb(115, 214, 183);
+    }
+    nav a{
+        text-decoration: none;
+        text-align: center;
+        margin: 0 30px;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: rgb(72, 72, 179);
+
+    }
+    #title{
+        margin: 20px 15px;
+        text-align: left;
+    }
+    h2, p{
+        margin: 20px;
+    }
+
+</style>
+</body>
+</html>

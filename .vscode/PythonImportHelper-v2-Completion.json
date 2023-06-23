@@ -1,0 +1,668 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "ProtocolTypeRouter",
+        "importPath": "channels.routing",
+        "description": "channels.routing",
+        "isExtraImport": true,
+        "detail": "channels.routing",
+        "documentation": {}
+    },
+    {
+        "label": "URLRouter",
+        "importPath": "channels.routing",
+        "description": "channels.routing",
+        "isExtraImport": true,
+        "detail": "channels.routing",
+        "documentation": {}
+    },
+    {
+        "label": "AuthMiddlewareStack",
+        "importPath": "channels.auth",
+        "description": "channels.auth",
+        "isExtraImport": true,
+        "detail": "channels.auth",
+        "documentation": {}
+    },
+    {
+        "label": "users_id.routing",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "users_id.routing",
+        "description": "users_id.routing",
+        "detail": "users_id.routing",
+        "documentation": {}
+    },
+    {
+        "label": "django",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django",
+        "description": "django",
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "re_path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "connection",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "channels.generic.websocket",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "channels.generic.websocket",
+        "description": "channels.generic.websocket",
+        "detail": "channels.generic.websocket",
+        "documentation": {}
+    },
+    {
+        "label": "WebsocketConsumer",
+        "importPath": "channels.generic.websocket",
+        "description": "channels.generic.websocket",
+        "isExtraImport": true,
+        "detail": "channels.generic.websocket",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "async_to_sync",
+        "importPath": "asgiref.sync",
+        "description": "asgiref.sync",
+        "isExtraImport": true,
+        "detail": "asgiref.sync",
+        "documentation": {}
+    },
+    {
+        "label": "async_to_sync",
+        "importPath": "asgiref.sync",
+        "description": "asgiref.sync",
+        "isExtraImport": true,
+        "detail": "asgiref.sync",
+        "documentation": {}
+    },
+    {
+        "label": "async_to_sync",
+        "importPath": "asgiref.sync",
+        "description": "asgiref.sync",
+        "isExtraImport": true,
+        "detail": "asgiref.sync",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponseForbidden",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "get_channel_layer",
+        "importPath": "channels.layers",
+        "description": "channels.layers",
+        "isExtraImport": true,
+        "detail": "channels.layers",
+        "documentation": {}
+    },
+    {
+        "label": "get_channel_layer",
+        "importPath": "channels.layers",
+        "description": "channels.layers",
+        "isExtraImport": true,
+        "detail": "channels.layers",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "CHANNEL_LAYERS",
+        "importPath": "Component.settings",
+        "description": "Component.settings",
+        "isExtraImport": true,
+        "detail": "Component.settings",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "Component.asgi",
+        "description": "Component.asgi",
+        "peekOfCode": "application = ProtocolTypeRouter({\n    'http': get_asgi_application(),\n    'websocket': AuthMiddlewareStack(\n        URLRouter(\n            users_id.routing.websocket_urlpatterns\n        )\n    )\n})",
+        "detail": "Component.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "Component.settings",
+        "description": "Component.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-43gj!&_(a)_t94xz5p94rmnn!^h)w&a%+568$ofqr@%5x@9v8j'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "Component.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "Component.settings",
+        "description": "Component.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-43gj!&_(a)_t94xz5p94rmnn!^h)w&a%+568$ofqr@%5x@9v8j'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'users_id',\n    'channels',\n    'django.contrib.admin',\n    'django.contrib.auth',",
+        "detail": "Component.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "Component.settings",
+        "description": "Component.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'users_id',\n    'channels',\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "Component.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "Component.settings",
+        "description": "Component.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'users_id',\n    'channels',\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',",
+        "detail": "Component.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "Component.settings",
+        "description": "Component.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'users_id',\n    'channels',\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n]",
+        "detail": "Component.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "Component.settings",
+        "description": "Component.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n    'users_id.middleware.RestrictPortAndPathMiddleware',\n]",
+        "detail": "Component.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "Component.settings",
+        "description": "Component.settings",
+        "peekOfCode": "ROOT_URLCONF = 'Component.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [os.path.join(BASE_DIR, 'templates')],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "Component.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "Component.settings",
+        "description": "Component.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [os.path.join(BASE_DIR, 'templates')],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "Component.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ASGI_APPLICATION",
+        "kind": 5,
+        "importPath": "Component.settings",
+        "description": "Component.settings",
+        "peekOfCode": "ASGI_APPLICATION = 'Component.asgi.application'\nWSGI_APPLICATION = 'Component.wsgi.application'\nCHANNEL_LAYERS = {\n    'default': {\n        'BACKEND': 'channels_redis.core.RedisChannelLayer',\n        'CONFIG': {\n            'hosts': [('redis', 6379)],\n        },\n    },\n}",
+        "detail": "Component.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "Component.settings",
+        "description": "Component.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'Component.wsgi.application'\nCHANNEL_LAYERS = {\n    'default': {\n        'BACKEND': 'channels_redis.core.RedisChannelLayer',\n        'CONFIG': {\n            'hosts': [('redis', 6379)],\n        },\n    },\n}\n# Database",
+        "detail": "Component.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CHANNEL_LAYERS",
+        "kind": 5,
+        "importPath": "Component.settings",
+        "description": "Component.settings",
+        "peekOfCode": "CHANNEL_LAYERS = {\n    'default': {\n        'BACKEND': 'channels_redis.core.RedisChannelLayer',\n        'CONFIG': {\n            'hosts': [('redis', 6379)],\n        },\n    },\n}\n# Database\n# https://docs.djangoproject.com/en/4.2/ref/settings/#databases",
+        "detail": "Component.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "Component.settings",
+        "description": "Component.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "Component.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "Component.settings",
+        "description": "Component.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "Component.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "Component.settings",
+        "description": "Component.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "Component.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "Component.settings",
+        "description": "Component.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nCORS_ORIGIN_ALLOW_ALL = True",
+        "detail": "Component.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "Component.settings",
+        "description": "Component.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nCORS_ORIGIN_ALLOW_ALL = True",
+        "detail": "Component.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "Component.settings",
+        "description": "Component.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nCORS_ORIGIN_ALLOW_ALL = True",
+        "detail": "Component.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "Component.settings",
+        "description": "Component.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nCORS_ORIGIN_ALLOW_ALL = True",
+        "detail": "Component.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "Component.settings",
+        "description": "Component.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nCORS_ORIGIN_ALLOW_ALL = True",
+        "detail": "Component.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ORIGIN_ALLOW_ALL",
+        "kind": 5,
+        "importPath": "Component.settings",
+        "description": "Component.settings",
+        "peekOfCode": "CORS_ORIGIN_ALLOW_ALL = True",
+        "detail": "Component.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "Component.urls",
+        "description": "Component.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('', include('users_id.urls')),\n]",
+        "detail": "Component.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "Component.wsgi",
+        "description": "Component.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "Component.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "users_id.migrations.0001_initial",
+        "description": "users_id.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='User_Url',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('ID_User', models.CharField(max_length=255)),",
+        "detail": "users_id.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "UrlInline",
+        "kind": 6,
+        "importPath": "users_id.admin",
+        "description": "users_id.admin",
+        "peekOfCode": "class UrlInline(admin.TabularInline):\n    model = Url\nclass User_UrlAdmin(admin.ModelAdmin):\n    inlines = [UrlInline]\nadmin.site.register(User_Url, User_UrlAdmin)",
+        "detail": "users_id.admin",
+        "documentation": {}
+    },
+    {
+        "label": "User_UrlAdmin",
+        "kind": 6,
+        "importPath": "users_id.admin",
+        "description": "users_id.admin",
+        "peekOfCode": "class User_UrlAdmin(admin.ModelAdmin):\n    inlines = [UrlInline]\nadmin.site.register(User_Url, User_UrlAdmin)",
+        "detail": "users_id.admin",
+        "documentation": {}
+    },
+    {
+        "label": "UsersIdConfig",
+        "kind": 6,
+        "importPath": "users_id.apps",
+        "description": "users_id.apps",
+        "peekOfCode": "class UsersIdConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'users_id'",
+        "detail": "users_id.apps",
+        "documentation": {}
+    },
+    {
+        "label": "MyConsumer",
+        "kind": 6,
+        "importPath": "users_id.consumers",
+        "description": "users_id.consumers",
+        "peekOfCode": "class MyConsumer(WebsocketConsumer):\n    def connect(self):\n        self.room_group_name = \"global1\"\n        async_to_sync(self.channel_layer.group_add)(self.room_group_name, self.channel_name)\n        self.accept()\n    def disconnect(self, close_code):\n        pass\n    def receive(self, text_data):\n        text_data_json = json.loads(text_data)\n        async_to_sync(self.channel_layer.group_send)(",
+        "detail": "users_id.consumers",
+        "documentation": {}
+    },
+    {
+        "label": "SecondConsumer",
+        "kind": 6,
+        "importPath": "users_id.consumers",
+        "description": "users_id.consumers",
+        "peekOfCode": "class SecondConsumer(WebsocketConsumer):\n    def connect(self):\n        self.room_group_name = \"global2\"\n        async_to_sync(self.channel_layer.group_add)(self.room_group_name, self.channel_name)\n        self.accept()\n    def disconnect(self, close_code):\n        pass\n    def receive(self, text_data):\n        text_data_json = json.loads(text_data)\n        message = text_data_json['message']",
+        "detail": "users_id.consumers",
+        "documentation": {}
+    },
+    {
+        "label": "RestrictPortAndPathMiddleware",
+        "kind": 6,
+        "importPath": "users_id.middleware",
+        "description": "users_id.middleware",
+        "peekOfCode": "class RestrictPortAndPathMiddleware:\n    def __init__(self, get_response):\n        self.get_response = get_response\n        self.restricted_port = 8080\n        self.restricted_paths = ['/page1/', '/page2/']\n    def __call__(self, request):\n        if request.META['SERVER_PORT'] == str(self.restricted_port) and request.path_info in self.restricted_paths:\n            return HttpResponseForbidden('Access Denied')\n        return self.get_response(request)",
+        "detail": "users_id.middleware",
+        "documentation": {}
+    },
+    {
+        "label": "User_Url",
+        "kind": 6,
+        "importPath": "users_id.models",
+        "description": "users_id.models",
+        "peekOfCode": "class User_Url(models.Model):\n    ID_User = models.CharField(max_length=255)\n    def __str__(self):\n        return self.ID_User\nclass Url(models.Model):\n    user = models.ForeignKey(User_Url, on_delete=models.CASCADE)\n    Url_User = models.CharField(max_length=255)\n    def __str__(self):\n        return self.Url_User",
+        "detail": "users_id.models",
+        "documentation": {}
+    },
+    {
+        "label": "Url",
+        "kind": 6,
+        "importPath": "users_id.models",
+        "description": "users_id.models",
+        "peekOfCode": "class Url(models.Model):\n    user = models.ForeignKey(User_Url, on_delete=models.CASCADE)\n    Url_User = models.CharField(max_length=255)\n    def __str__(self):\n        return self.Url_User",
+        "detail": "users_id.models",
+        "documentation": {}
+    },
+    {
+        "label": "websocket_urlpatterns",
+        "kind": 5,
+        "importPath": "users_id.routing",
+        "description": "users_id.routing",
+        "peekOfCode": "websocket_urlpatterns = [\n    re_path(r'ws/socket-server/',consumers.MyConsumer.as_asgi()),\n    re_path(r'ws/id/',consumers.SecondConsumer.as_asgi()),\n]",
+        "detail": "users_id.routing",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "users_id.urls",
+        "description": "users_id.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', home_view, name='home'),\n    path('page1/', page1_view, name='page1'),\n    path('page2/', page2_view, name='page2'),\n    path('<int:pk>/', id_view, name='id'),\n]",
+        "detail": "users_id.urls",
+        "documentation": {}
+    },
+    {
+        "label": "home_view",
+        "kind": 2,
+        "importPath": "users_id.views",
+        "description": "users_id.views",
+        "peekOfCode": "def home_view(request):\n    if request.META['SERVER_PORT'] == '8080':\n        return render(request, 'admin.html')\n    else:\n        end_user_id = request.COOKIES.get('end_user_id')\n        if not end_user_id:\n            end_user_id = generate_end_user_id()\n        web_page_url = '/'\n        response = render(request, 'home.html')\n        response.set_cookie('end_user_id', end_user_id)",
+        "detail": "users_id.views",
+        "documentation": {}
+    },
+    {
+        "label": "id_view",
+        "kind": 2,
+        "importPath": "users_id.views",
+        "description": "users_id.views",
+        "peekOfCode": "def id_view(request, pk):\n    return render(request, 'admin_id.html', {'pk': pk})\ndef page1_view(request):\n    end_user_id = request.COOKIES.get('end_user_id')\n    web_page_url = '/page1/'\n    save_information(end_user_id, web_page_url)\n    return render(request, 'page1.html')\ndef page2_view(request):\n    end_user_id = request.COOKIES.get('end_user_id')\n    web_page_url = '/page2/'",
+        "detail": "users_id.views",
+        "documentation": {}
+    },
+    {
+        "label": "page1_view",
+        "kind": 2,
+        "importPath": "users_id.views",
+        "description": "users_id.views",
+        "peekOfCode": "def page1_view(request):\n    end_user_id = request.COOKIES.get('end_user_id')\n    web_page_url = '/page1/'\n    save_information(end_user_id, web_page_url)\n    return render(request, 'page1.html')\ndef page2_view(request):\n    end_user_id = request.COOKIES.get('end_user_id')\n    web_page_url = '/page2/'\n    save_information(end_user_id, web_page_url)\n    return render(request, 'page2.html')",
+        "detail": "users_id.views",
+        "documentation": {}
+    },
+    {
+        "label": "page2_view",
+        "kind": 2,
+        "importPath": "users_id.views",
+        "description": "users_id.views",
+        "peekOfCode": "def page2_view(request):\n    end_user_id = request.COOKIES.get('end_user_id')\n    web_page_url = '/page2/'\n    save_information(end_user_id, web_page_url)\n    return render(request, 'page2.html')\ndef create_user_cookie(id):\n    user = User_Url(ID_User=id)\n    user.save()\n    channel_layer = get_channel_layer()\n    async_to_sync(channel_layer.group_send)(",
+        "detail": "users_id.views",
+        "documentation": {}
+    },
+    {
+        "label": "create_user_cookie",
+        "kind": 2,
+        "importPath": "users_id.views",
+        "description": "users_id.views",
+        "peekOfCode": "def create_user_cookie(id):\n    user = User_Url(ID_User=id)\n    user.save()\n    channel_layer = get_channel_layer()\n    async_to_sync(channel_layer.group_send)(\n    'global1',\n    {\n        'type': 'update1',\n        'message': \"New request\"\n    }",
+        "detail": "users_id.views",
+        "documentation": {}
+    },
+    {
+        "label": "save_information",
+        "kind": 2,
+        "importPath": "users_id.views",
+        "description": "users_id.views",
+        "peekOfCode": "def save_information(id, url):\n    channel_layer = get_channel_layer()\n    try:\n        user = User_Url.objects.get(ID_User=id)\n        url_obj = Url(user=user, Url_User=url)\n        url_obj.save()\n    except :\n        create_user_cookie(id)\n        user = User_Url.objects.get(ID_User=id)\n        url_obj = Url(user=user, Url_User=url)",
+        "detail": "users_id.views",
+        "documentation": {}
+    },
+    {
+        "label": "generate_end_user_id",
+        "kind": 2,
+        "importPath": "users_id.views",
+        "description": "users_id.views",
+        "peekOfCode": "def generate_end_user_id():\n    end_user_id = str(uuid.uuid4())\n    return end_user_id",
+        "detail": "users_id.views",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Component.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]

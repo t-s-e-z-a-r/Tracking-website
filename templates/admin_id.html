@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+    <h1>Історія відвудувань сайту користувачем з ID:</h1>
+    <h2></h2>
+    <div id="results-container">
+
+    </div>
+</body>
+</html>
+<script>
+    
+    let url = `ws://${window.location.host}/ws/id/`;
+    const mySocket = new WebSocket(url);
+    const newUrl = new URL(window.location.href);
+    const digit = newUrl.pathname.split('/')[1];
+    console.log('Цифра:', digit);
+    mySocket.onopen = function(event) {
+        console.log('WebSocket connection established.');
+        sendWebSocketRequest(digit);
+
+    };
+  
+    mySocket.onmessage = function(event) {
+        const data = JSON.parse(event.data);
+        console.log('Received message:', data);
+        if (data.type === 'send_request'){
+            sendWebSocketRequest(digit);
+        }
+        else{
+            const resultsContainer = document.getElementById('results-container');
+            resultsContainer.innerHTML = '';
+            for (let i = 0; i < data.message.length; i++) {
+                const urlDiv = document.createElement('div');
+                urlDiv.classList.add('urlDiv'); 
+                const urlText = document.createElement('p');
+                urlText.textContent = `${i+1}) localhost:8000${data.message[i]}`;
+                urlDiv.appendChild(urlText);
+                resultsContainer.appendChild(urlDiv);
+                const id = data.id;
+                const headTitle = document.querySelector('h2')
+                headTitle.textContent = `${id}`
+            }
+        }
+
+    };
+    
+
+
+    function sendWebSocketRequest(message) {
+
+        const request = {
+            type: 'update',
+            message: message
+        };
+        mySocket.send(JSON.stringify(request));
+    }
+</script>        
+<style>
+    h1{
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+    }
+    #results-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .urlDiv{
+        background-color: rgb(206, 218, 230);
+        width: 30vw;
+        padding: 10px;
+        border-bottom:1px solid rgb(197, 186, 186) ;
+    }
+</style>

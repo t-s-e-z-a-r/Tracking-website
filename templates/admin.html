@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+    <h1>AdminSite</h1>
+    <div id="results-container">
+
+    </div>
+</body>
+</html>
+<script>
+    let url = `ws://${window.location.host}/ws/socket-server/`;
+    const mySocket = new WebSocket(url);
+
+    mySocket.onopen = function(event) {
+        console.log('WebSocket connection established.');
+        sendWebSocketRequest('Request');
+    };
+  
+    mySocket.onmessage = function(event) {
+        const data = JSON.parse(event.data);
+        console.log('Received message:', data);
+      
+        const resultsContainer = document.getElementById('results-container');
+        resultsContainer.innerHTML = '';
+      
+        for (let i = 0; i < data.length; i++) {
+          const id = data[i].ID_User;
+      
+          const idDiv = document.createElement('div');
+          idDiv.classList.add('idDiv');
+      
+          const idLink = document.createElement('a');
+          idLink.textContent = `${i+1}) ${id}`;
+          idLink.href = `${data[i].User_pk}`;
+      
+          idDiv.appendChild(idLink);
+          resultsContainer.appendChild(idDiv);
+        }
+      };
+      
+
+
+    function sendWebSocketRequest(message) {
+
+        const request = {
+            type: 'send_message',
+            message: message
+        };
+        mySocket.send(JSON.stringify(request));
+    }
+
+</script>        
+<style>
+    h1{
+        text-align: center;
+        background-color: rgb(200, 195, 188);
+    }
+    #results-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .idDiv{
+        background-color: rgb(206, 218, 230);
+        width: 30vw;
+        padding: 10px;
+        border-bottom:1px solid rgb(197, 186, 186) ;
+    }
+    .idDiv a{
+        text-decoration: none;
+    }
+</style>
